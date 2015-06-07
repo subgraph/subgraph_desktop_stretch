@@ -1,0 +1,20 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+  --clean \
+  --distribution stretch \
+  --linux-flavours "amd64" \
+  --linux-packages "linux-image linux-headers" \
+  --firmware-binary true \
+  --firmware-chroot true \
+  --source false \
+  --apt-indices false \
+  --apt-recommends false \
+  --memtest memtest86+ \
+  --iso-publisher "Subgraph" \
+  --iso-application "Subgraph OS" \
+  --archive-areas "main contrib non-free" \
+  --bootappend-live "boot=live noconfig=sudo username=subgraph hostname=subgraph-live" \
+	"${@}"
