@@ -1,0 +1,11 @@
+live-tools 
+live-config
+live-boot
+live-boot-initramfs-tools
+user-setup 
+sudo
+eject
+build-essential
+fakeroot
+module-assistant
+
