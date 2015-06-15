@@ -5,6 +5,7 @@ set -e
 lb config noauto \
   --clean \
   --distribution stretch \
+  --debian-installer true \
   --linux-flavours "amd64" \
   --linux-packages "linux-image linux-headers" \
   --firmware-binary true \
