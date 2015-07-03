@@ -5,10 +5,6 @@ pciutils
         # broadcom-sta
         broadcom-sta-dkms
 
-        # fglrx-driver
-        fglrx-modules-dkms
-        fglrx-driver fglrx-control
-
         # nvidia-graphics-drivers
         nvidia-kernel-dkms
         nvidia-glx xserver-xorg-video-nvidia
