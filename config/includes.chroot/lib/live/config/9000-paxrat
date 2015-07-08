@@ -1,0 +1,12 @@
+# Script to set PaX flags at boot (needed for live)
+
+Configure_pax_flags ()
+{
+
+       /sbin/paxrat -c /etc/paxrat/paxrat.config
+
+}
+
+Configure_pax_flags
+
+
