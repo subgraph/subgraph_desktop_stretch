@@ -3,7 +3,7 @@
 Configure_pax_flags ()
 {
 
-       /sbin/paxrat -c /etc/paxrat/paxrat.config
+       /sbin/paxrat -c /etc/paxrat/paxrat.conf
 
 }
 
