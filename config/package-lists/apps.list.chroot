@@ -2,6 +2,8 @@ torbrowser-launcher
 iceweasel
 vlc                                                                                
 youtube-dl                                                                         
+pidgin
+pidgin-otr
 vim                                                                                
 unzip                                                                              
 tmux                                                                               
@@ -36,4 +38,4 @@ hunspell-en-us
 hyphen-en-us
 libgtk2-perl 
 florence
-
+plymouth
