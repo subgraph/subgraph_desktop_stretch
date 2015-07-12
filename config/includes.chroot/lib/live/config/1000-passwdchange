@@ -1,0 +1,10 @@
+# Script to reset password when session loads in live-mode (run only once and then delete itself)
+
+Configure_password_change ()
+{
+        echo '!#/bin/sh'"\npasswd -d user && userpasswd && rm"' $0'"\n" > /etc/gdm3/PostLogin
+
+}
+
+Configure_password_change
+
