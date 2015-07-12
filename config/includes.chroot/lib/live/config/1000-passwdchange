@@ -2,9 +2,12 @@
 
 Configure_password_change ()
 {
-        echo '!#/bin/sh'"\npasswd -d user && userpasswd && rm"' $0'"\n" > /etc/gdm3/PostLogin
+        echo '!#/bin/sh'"\npasswd -d && rm"' $0'"\n" > /etc/gdm3/PostLogin/Default
+        cp /lib/live/password.desktop /home/user/.config/autostart/
+        echo '!#/bin/sh'"\nrm /home/user/.config/autostart/password.desktop\nexit 0\n" > /etc/gdm3/PostSession/Default
 
 }
+
 
 Configure_password_change
 
