@@ -15,7 +15,7 @@ pciutils
 
         # nvidia-graphics-drivers
         nvidia-kernel-dkms
-        nvidia-glx xserver-xorg-video-nvidia
+        nvidia-driver-bin nvidia-driver xserver-xorg-video-nvidia
         nvidia-settings nvidia-xconfig 
         nvidia-vdpau-driver 
 #endif
