@@ -1,4 +1,5 @@
 subgraph-desktop-gnome
 paxrat
 subgraph-tor-config
+subgraph-ferm-config
 
