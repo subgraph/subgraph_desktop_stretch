@@ -1,5 +1,6 @@
 subgraph-desktop-gnome
 paxrat
+subgraph-metaproxy
 subgraph-tor-config
 subgraph-ferm-config
 subgraph-networkmanager-config
