@@ -3,4 +3,4 @@ paxrat
 subgraph-metaproxy
 subgraph-tor-config
 subgraph-ferm-config
-subgraph-networkmanager-config
+#subgraph-networkmanager-config
