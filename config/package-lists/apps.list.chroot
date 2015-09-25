@@ -15,7 +15,7 @@ xpra
 paxctl                                                                             
 ferm                                                                               
 attr                                                                               
-resolvconf                                                                         
+#resolvconf                                                                         
 polipo                                                                             
 nautilus-wipe                                                                      
 connect-proxy  
