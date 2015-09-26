@@ -1,6 +1,5 @@
 torbrowser-launcher                                                             
 iceweasel
-vlc                                                                                
 youtube-dl                                                                         
 pidgin
 pidgin-otr
@@ -15,8 +14,6 @@ xpra
 paxctl                                                                             
 ferm                                                                               
 attr                                                                               
-#resolvconf                                                                         
-polipo                                                                             
 nautilus-wipe                                                                      
 connect-proxy  
 mat
@@ -40,5 +37,6 @@ libgtk2-perl
 florence
 plymouth
 tor
+torsocks
 ebtables
 
