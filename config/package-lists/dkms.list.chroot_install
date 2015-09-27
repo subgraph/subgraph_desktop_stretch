@@ -6,9 +6,9 @@ pciutils
         broadcom-sta-dkms
 
         # nvidia-graphics-drivers
-        nvidia-kernel-dkms
-        nvidia-driver-bin nvidia-driver xserver-xorg-video-nvidia
-        nvidia-settings nvidia-xconfig 
-        nvidia-vdpau-driver 
+#        nvidia-kernel-dkms
+#        nvidia-driver-bin nvidia-driver xserver-xorg-video-nvidia
+#        nvidia-settings nvidia-xconfig 
+#        nvidia-vdpau-driver 
 #endif
 
