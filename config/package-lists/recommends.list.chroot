@@ -8,4 +8,5 @@ eject
 build-essential
 fakeroot
 module-assistant
+systemd-sysv
 
