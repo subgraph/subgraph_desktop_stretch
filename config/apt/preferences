@@ -1,0 +1,12 @@
+Package: portmap
+Pin: version *
+Pin-Priority: -1
+
+Package: nfs-common
+Pin: version *
+Pin-Priority: -1
+
+Package: rpcbind
+Pin: version *
+Pin-Priority: -1
+
