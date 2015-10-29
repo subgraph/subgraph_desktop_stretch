@@ -17,5 +17,5 @@ lb config noauto \
   --iso-publisher "Subgraph" \
   --iso-application "Subgraph OS" \
   --archive-areas "main contrib non-free" \
-  --bootappend-live "boot=live noconfig=sudo username=user user-fullname=User hostname=host union=overlay quiet" \
+  --bootappend-live "boot=live noconfig=sudo username=user user-fullname=User hostname=debian union=overlay quiet" \
 	"${@}"
