@@ -52,4 +52,4 @@ resolvconf
 pcscd
 scdaemon
 libacr38u
-
+xserver-xorg-legacy
