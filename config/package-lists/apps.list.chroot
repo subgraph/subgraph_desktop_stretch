@@ -53,3 +53,8 @@ pcscd
 scdaemon
 libacr38u
 xserver-xorg-legacy
+va-driver-all
+vdpau-driver-all
+vdpau-va-driver
+libcogl-common
+
