@@ -1,4 +1,5 @@
 subgraph-desktop-gnome
+subgraph-defaults
 paxrat
 subgraph-metaproxy
 subgraph-tor-config
