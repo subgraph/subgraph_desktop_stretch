@@ -1,6 +1,9 @@
 #!/bin/sh
 
 set -e
+
+ISO_PUBLISHER="Subgraph"
+ISO_APPLICATION="Subgraph OS"
 ISO_VOLUME="Subgraph live $(date +%m%d%Y)"
 
 lb config noauto \
@@ -15,8 +18,8 @@ lb config noauto \
   --apt-indices false \
   --apt-recommends false \
   --memtest memtest86+ \
-  --iso-publisher "Subgraph" \
-  --iso-application "Subgraph OS" \
+  --iso-publisher "$ISO_PUBLISHER" \
+  --iso-application "$ISO_APPLICATION" \
   --iso-volume "$ISO_VOLUME" \
   --archive-areas "main contrib non-free" \
   --bootappend-live "boot=live noconfig=sudo username=user user-fullname=User hostname=debian union=overlay quiet splash noautologin" \
