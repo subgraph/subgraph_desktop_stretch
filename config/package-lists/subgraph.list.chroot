@@ -7,4 +7,5 @@ subgraph-ferm-config
 subgraph-networkmanager-config
 subgraph-environment-config
 oz-daemon
+macouflage
 
