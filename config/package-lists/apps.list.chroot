@@ -48,6 +48,7 @@ ibus
 plymouth
 tor
 torsocks
+tor-geoipdb
 ebtables
 openjdk-7-jdk
 resolvconf
