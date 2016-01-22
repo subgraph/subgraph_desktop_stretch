@@ -1,0 +1,10 @@
+# Script to enable the Subgraph firewall daemon GNOME extension in live mode
+
+Enable_firewall_extension ()
+{
+        /bin/su -c "/usr/bin/gnome-shell-extension-tool --enable-extension=firewall@subgraph.com" user
+}
+
+Enable_firewall_extension
+
+
