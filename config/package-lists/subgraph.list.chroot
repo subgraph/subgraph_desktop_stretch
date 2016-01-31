@@ -1,4 +1,5 @@
 subgraph-desktop-gnome
+gnome-session-subgraph
 subgraph-defaults
 paxrat
 subgraph-metaproxy
@@ -7,6 +8,7 @@ subgraph-ferm-config
 subgraph-networkmanager-config
 subgraph-environment-config
 oz-daemon
+gnome-shell-extension-ozshell
 fw-daemon
 fw-daemon-gnome
 macouflage
