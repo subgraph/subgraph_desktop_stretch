@@ -7,6 +7,7 @@ subgraph-tor-config
 subgraph-ferm-config
 subgraph-networkmanager-config
 subgraph-environment-config
+subgraph-grub-config
 oz-daemon
 gnome-shell-extension-ozshell
 fw-daemon
