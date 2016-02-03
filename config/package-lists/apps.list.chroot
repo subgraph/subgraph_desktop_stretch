@@ -67,5 +67,7 @@ libwebkitgtk-1.0-0
 faenza-icon-theme
 vlc
 keepassx
+cryptsetup
+cryptsetup-bin
 
 
