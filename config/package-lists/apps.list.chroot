@@ -79,8 +79,14 @@ wireless-regdb
 libwebkitgtk-1.0-0
 faenza-icon-theme
 vlc
+vlc-plugin-fluidsynth
+vlc-plugin-jack
+vlc-plugin-notify
+vlc-plugin-sdl
+vlc-plugin-svg
+vlc-plugin-zvbi
+vlc-plugin-notify
 keepassx
 cryptsetup
 cryptsetup-bin
-
 
