@@ -64,7 +64,7 @@ libccid
 libacsccid1
 libyubikey0
 yubikey-personalization                                                            
-yubikey-personalization-ui                                                         
+yubikey-personalization-gui                                                         
 yubikey-neo-manager                                                                
 ykneomgr 
 xserver-xorg-legacy
