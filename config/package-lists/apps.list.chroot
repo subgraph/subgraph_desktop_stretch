@@ -48,6 +48,11 @@ plymouth
 tor
 torsocks
 tor-geoipdb
+flashproxy-client
+golang-goptlib-dev
+obfs4proxy
+obfsproxy
+python-pyptlib
 ebtables
 openjdk-7-jdk
 resolvconf
