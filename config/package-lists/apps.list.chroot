@@ -59,6 +59,10 @@ resolvconf
 pcscd
 scdaemon
 libacr38u
+pcsc-tools
+libccid
+libacsccid1
+libyubikey0
 xserver-xorg-legacy
 va-driver-all
 vdpau-driver-all
