@@ -63,6 +63,10 @@ pcsc-tools
 libccid
 libacsccid1
 libyubikey0
+yubikey-personalization                                                            
+yubikey-personalization-ui                                                         
+yubikey-neo-manager                                                                
+ykneomgr 
 xserver-xorg-legacy
 va-driver-all
 vdpau-driver-all
