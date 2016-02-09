@@ -22,5 +22,5 @@ lb config noauto \
   --iso-application "$ISO_APPLICATION" \
   --iso-volume "$ISO_VOLUME" \
   --archive-areas "main contrib non-free" \
-  --bootappend-live "boot=live noconfig=sudo username=user user-fullname=User hostname=subgraph union=overlay quiet splash" \
+  --bootappend-live "boot=live noconfig=sudo username=user user-fullname=User hostname=subgraph union=overlay quiet splash apparmor=1 security=apparmor" \
 	"${@}"

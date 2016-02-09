@@ -1,4 +1,10 @@
 paxctl
 attr
 paxtest
+apparmor 
+apparmor-profiles 
+apparmor-utils 
+apparmor-easyprof 
+apparmor-notify 
+apparmor-profiles-extra
 
