@@ -13,6 +13,7 @@ screen
 git                                                                                
 curl                                                                               
 irssi                                                                              
+hexchat
 xpra                                                                               
 bridge-utils
 gstreamer0.10-plugins-good 
