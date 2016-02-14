@@ -7,4 +7,6 @@ apparmor-utils
 apparmor-easyprof 
 apparmor-notify 
 apparmor-profiles-extra
+haveged 
+rng-tools
 
