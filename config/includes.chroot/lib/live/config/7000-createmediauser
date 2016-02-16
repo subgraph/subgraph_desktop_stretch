@@ -1,0 +1,10 @@
+# Script to create /media/user directory for Oz (needed for live mode)
+
+Create_media_user ()
+{
+
+	mkdir /media/user
+}
+
+Create_media_user
+
