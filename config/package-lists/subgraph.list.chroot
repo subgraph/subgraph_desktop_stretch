@@ -4,6 +4,7 @@ subgraph-defaults
 paxrat
 subgraph-metaproxy
 subgraph-tor-config
+gnome-shell-extension-torstatus
 subgraph-ferm-config
 subgraph-networkmanager-config
 subgraph-environment-config
