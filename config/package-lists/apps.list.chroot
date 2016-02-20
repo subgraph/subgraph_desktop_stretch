@@ -89,5 +89,6 @@ vlc-plugin-notify
 keepassx
 cryptsetup
 cryptsetup-bin
+apt-transport-https
 apt-transport-tor
 
