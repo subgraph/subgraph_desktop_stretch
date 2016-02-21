@@ -1,0 +1,4 @@
+Package: *
+Pin: origin devrepo.subgraph.com 
+Pin-Priority: 999
+
