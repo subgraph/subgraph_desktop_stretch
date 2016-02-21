@@ -1,0 +1,13 @@
+# Script to set change apt transport at boot
+
+Configure_apt_transport ()
+{
+
+        sed -i 's/http/tor+https/g' /etc/apt/sources.list.d/subgraph.list
+	sed -i 's/http/tor+http/g' /etc/apt/sources.list
+
+}
+
+Configure_apt_transport
+
+
