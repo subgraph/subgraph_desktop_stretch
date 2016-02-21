@@ -91,4 +91,5 @@ cryptsetup
 cryptsetup-bin
 apt-transport-https
 apt-transport-tor
+subgraph-standard
 
