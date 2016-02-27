@@ -21,7 +21,6 @@ paxctl
 ferm                                                                               
 attr                                                                               
 nautilus-wipe                                                                      
-connect-proxy  
 mat
 gir1.2-poppler-0.18
 libimage-exiftool-perl
