@@ -15,8 +15,6 @@ irssi
 hexchat
 xpra                                                                               
 bridge-utils
-#gstreamer0.10-plugins-good 
-#python-gst0.10
 paxctl                                                                             
 ferm                                                                               
 attr                                                                               
