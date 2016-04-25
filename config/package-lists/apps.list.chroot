@@ -51,7 +51,7 @@ obfs4proxy
 obfsproxy
 python-pyptlib
 ebtables
-openjdk-7-jdk
+openjdk-8-jdk
 resolvconf
 pcscd
 scdaemon
