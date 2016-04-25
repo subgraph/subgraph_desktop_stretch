@@ -11,7 +11,7 @@ pciutils
 
 #if ARCHIVE_AREAS non-free
         # broadcom-sta
-        broadcom-sta-dkms
+        # broadcom-sta-dkms
 
         # nvidia-graphics-drivers
 #        nvidia-kernel-dkms
