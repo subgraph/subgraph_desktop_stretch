@@ -90,4 +90,5 @@ apt-transport-tor
 subgraph-standard
 rfkill
 wireless-tools
+pastebinit
 
