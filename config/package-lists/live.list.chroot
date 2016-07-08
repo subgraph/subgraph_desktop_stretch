@@ -2,4 +2,5 @@ live-boot
 live-config
 live-config-systemd
 squashfs-tools
+rsync
 
