@@ -2,8 +2,8 @@
 pciutils
 
 # virtualbox
-virtualbox-guest-dkms
-virtualbox-guest-utils virtualbox-guest-x11
+#virtualbox-guest-dkms
+#virtualbox-guest-utils virtualbox-guest-x11
 
 #if ARCHIVE_AREAS non-free
         # broadcom-sta
