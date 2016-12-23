@@ -13,6 +13,7 @@ git
 curl                                                                               
 irssi                                                                              
 hexchat
+ricochet-im
 xpra                                                                               
 bridge-utils
 paxctl                                                                             
@@ -65,7 +66,6 @@ yubikey-personalization-gui
 yubikey-neo-manager                                                                
 ykneomgr 
 libpam-yubico
-xserver-xorg-legacy
 va-driver-all
 vdpau-driver-all
 vdpau-va-driver
