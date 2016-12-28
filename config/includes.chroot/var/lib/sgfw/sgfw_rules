@@ -1,5 +1,5 @@
 [/usr/bin/tor]
-ALLOW|*:*
+ALLOW|*:*|SYSTEM
 [/usr/bin/pulseaudio]
-DENY|*:*
+DENY|*:*|SYSTEM
 
