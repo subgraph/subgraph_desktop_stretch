@@ -9,4 +9,5 @@ apparmor-notify
 apparmor-profiles-extra
 haveged 
 rng-tools
+auditd
 
