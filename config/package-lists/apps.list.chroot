@@ -15,6 +15,7 @@ irssi
 hexchat
 ricochet-im
 xpra                                                                               
+python-dbus
 bridge-utils
 paxctl                                                                             
 ferm                                                                               
