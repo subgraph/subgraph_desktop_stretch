@@ -14,6 +14,7 @@ curl
 irssi                                                                              
 hexchat
 ricochet-im
+python-netifaces
 xpra                                                                               
 python-dbus
 bridge-utils
