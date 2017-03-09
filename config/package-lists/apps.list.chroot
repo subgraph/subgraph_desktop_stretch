@@ -57,6 +57,7 @@ python-pyptlib
 ebtables
 openjdk-8-jdk
 resolvconf
+dirmngr
 pcscd
 scdaemon
 libacr38u
