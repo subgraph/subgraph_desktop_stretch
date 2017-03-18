@@ -60,7 +60,6 @@ resolvconf
 dirmngr
 pcscd
 scdaemon
-libacr38u
 pcsc-tools
 libccid
 libacsccid1
