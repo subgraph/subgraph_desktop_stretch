@@ -73,7 +73,6 @@ va-driver-all
 vdpau-driver-all
 vdpau-va-driver
 libcogl-common
-fonts-droid
 fonts-liberation
 fonts-sil-gentium
 wireless-regdb
