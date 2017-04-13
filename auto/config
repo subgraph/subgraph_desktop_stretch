@@ -10,6 +10,7 @@ lb config noauto \
   --clean \
   --distribution stretch \
   --debian-installer live \
+  --debian-installer-distribution daily \
   --linux-flavours "amd64" \
   --linux-packages "linux-image linux-headers" \
   --firmware-binary true \
