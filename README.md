@@ -1,26 +1,69 @@
 # subgraph_desktop_stretch
 
 This is the blue-print for building Subgraph OS installable/live ISOs based
-on Debian testing (currently stretch).
+on Debian Testing.
 
-The config is generated from live-build 5.x, which is currently in alpha.
+## Build pre-requisites
 
-## Status
+The following Debian packages need to be installed in your build environment 
+in order to build an ISO:
 
-1. debian-installer is not ready for stretch yet, installable ISOs depend on 
-this. ISOs should run in live-mode.
+```
+$ sudo apt-get install live-build live-config live-boot live-boot-initramfs-tools
+```
 
-2. Subgraph APT repositories are currently not stable or public yet, so it is 
-also not currently possible to build SGOS using just this config because it
-is missing repository links and Subgraph-specific packages. A lot of things
-are added dynamically at build time at this phase while we iron out everything.
+We do suggest you build from a VM or container. 
 
-3. The list of third-party packages that will ship with the ISO is currently
-in flux as we are evaluating what we would like to include and building
-metapackages where it is appropriate. 
+`apt-cacher-ng` may also help speed up builds -- but setting it up is left as 
+an exercise for the avid live-builder.
 
-4. ISOs will not ship until our public repositories are set up and it is
-possible to run `apt-get update/upgrade' to download security (and other 
-updates). When complete, our aim is that people can use this live-build config
-to build their own ISOs.
+We also strongly recommend that you familiarize yourself with the 
+[live-build manual](https://debian-live.alioth.debian.org/live-manual/stable/manual/html/live-manual.en.html).
+
+## Building an ISO
+
+To build an ISO, run the following commands:
+```
+$ lb clean --purge
+$ lb config
+$ lb build
+```
+
+## Troubleshooting
+
+In theory, the configuration contained in this repo will build a complete ISO.
+However, there may be cases where live-build fails to successfully complete a 
+build.
+
+The build may fail for a number of reasons:
+
+- Dependencies removed from Debian
+- Debian repo probz
+- `debian-installer` is not building (therefore, unavailable for installation 
+into the ISO)
+- Failure to anoint your keyboard with bat guano (or whatever you normally 
+do to get your mojo workin')
+
+- Etc.
+
+We are also subject to these variables. We don't maintain the `live-build` 
+software, so barring any bugs in our configuration and our packages, build 
+failures are not something we exert much control over. For this reason, we don't
+officially support people building third-party ISO builds. Chances are if
+there is a problem we can control, we already know about it and will commit
+changes to this repo or packages in our APT repo.
+
+If you do encounter difficulties, you may be able to determine the cause by 
+consulting one of the following resources:
+
+- The Debian [live-build bug tracker](https://bugs.debian.org/cgi-bin/pkgreport.cgi?src=live-build) 
+- The [debian-live mailing list](https://lists.debian.org/debian-live/)
+- Your worldview-specific expert of choice in matters of superstition
+
+## Bugs
+
+Of course, if you have done the leg-work and determined that there was a bug
+in something we do control, we will be happy to fix it. But we would appreciate
+if all other avenues of inquiry have been exhausted first. Only report it to us
+if you are highly confident that it is something we can fix.
 
