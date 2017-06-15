@@ -67,7 +67,8 @@ libyubikey0
 yubikey-personalization                                                            
 yubikey-personalization-gui                                                         
 yubikey-neo-manager                                                                
-ykneomgr 
+ykneomgr
+yubico-piv-tool
 libpam-yubico
 va-driver-all
 vdpau-driver-all
