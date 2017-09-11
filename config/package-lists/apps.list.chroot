@@ -97,4 +97,5 @@ pastebinit
 electrum
 python-qt4
 python-trezor
-
+exfat-fuse
+exfat-utils
