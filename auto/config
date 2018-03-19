@@ -18,6 +18,7 @@ lb config noauto \
   --source false \
   --apt-indices false \
   --apt-recommends false \
+  --backports true \
   --memtest memtest86+ \
   --iso-publisher "$ISO_PUBLISHER" \
   --iso-application "$ISO_APPLICATION" \
