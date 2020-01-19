@@ -3,8 +3,13 @@
 Configure_apt_transport ()
 {
 
-        sed -i 's/http:/tor+https:/g' /etc/apt/sources.list.d/subgraph.list
-	sed -i 's/http:/tor+http:/g' /etc/apt/sources.list
+	sed -i 's,http:,tor+https:,g' /etc/apt/sources.list.d/subgraph.list
+
+	# vwakviie2ienjx6t.onion is the official onion service for ftp.d.o
+	# sgvtcaew4bxjd7ln.onion is the official onion service for ftp.d.o
+	# c.f. https://onion.debian.org/
+	sed -i 's,http://deb.debian.org,tor+http://vwakviie2ienjx6t.onion,g' /etc/apt/sources.list
+	sed -i 's,http://security.debian.org,tor+http://sgvtcaew4bxjd7ln.onion,g' /etc/apt/sources.list
 
 }
 
